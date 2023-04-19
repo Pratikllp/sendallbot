@@ -159,40 +159,40 @@ async def account_login(bot: Client, m: Message):
             response6 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
 
             params5 = {'page': '5','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response7 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response7 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params5, headers=headers).json()["data"]
 
             params6 = {'page': '6','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response8 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response8 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params6, headers=headers).json()["data"]
 
             params7 = {'page': '7','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response9 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response9 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params7, headers=headers).json()["data"]
 
             params8 = {'page': '8','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response10 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response10 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params8, headers=headers).json()["data"]
 
             params9 = {'page': '9','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response11 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response11 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params9, headers=headers).json()["data"]
 
             params10 = {'page': '10','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response12 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response12 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params10, headers=headers).json()["data"]
 
             params11 = {'page': '11','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response13 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response13 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params11, headers=headers).json()["data"]
 
             params12 = {'page': '12','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response14 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response14 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params12, headers=headers).json()["data"]
 
             params13 = {'page': '13','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response15 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response15 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params13, headers=headers).json()["data"]
 
             params14 = {'page': '14','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response16 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response16 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params14, headers=headers).json()["data"]
 
             params15 = {'page': '15','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response17 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response17 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params15, headers=headers).json()["data"]
 
             params16 = {'page': '16','tag': '','contentType': 'exercises-notes-videos','ut': ''}
-            response18 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params4, headers=headers).json()["data"]
+            response18 = requests.get(f'https://api.penpencil.xyz/v2/batches/{raw_text3}/subject/{t}/contents', params=params16, headers=headers).json()["data"]
             #await m.reply_text(response3)
             try:
                 for data in response3:

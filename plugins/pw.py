@@ -196,7 +196,7 @@ async def account_login(bot: Client, m: Message):
             #await m.reply_text(response3)
             try:
                 for data in response3:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", " d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -209,7 +209,7 @@ async def account_login(bot: Client, m: Message):
             #await m.reply_document(f"{batch}.txt")
             try:
                 for data in response4:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -222,7 +222,7 @@ async def account_login(bot: Client, m: Message):
             #await m.reply_document(f"{batch}.txt")
             try:
                 for data in response5:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -235,7 +235,7 @@ async def account_login(bot: Client, m: Message):
             #await m.reply_document(f"{batch}.txt")
             try:
                 for data in response6:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -248,7 +248,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response7:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -261,7 +261,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response8:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -274,7 +274,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response9:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -287,7 +287,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response10:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -300,7 +300,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response11:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -313,7 +313,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response12:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -326,7 +326,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response13:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -339,7 +339,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response14:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -352,7 +352,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response15:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -365,7 +365,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response16:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -378,7 +378,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response17:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
@@ -391,7 +391,7 @@ async def account_login(bot: Client, m: Message):
             await m.reply_document(f"{batch}.txt")
             try:
                 for data in response18:
-                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|").strip()
+                    class_title=(data["topic"].replace(" : ", " - ").replace("||", "|"))
                     class_url=data["url"].replace("d1d34p8vz63oiq", "d26g5bnklkwsh4").replace("mpd", "m3u8").strip()
                 #cc=f"```{data['topic']}```:```{data['url']}\n```"
                     cc = f"{data['topic']}:{data['url']}"
